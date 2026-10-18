@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://crowsutr.github.io/signup/</loc>
+    <loc>/signup/</loc>
     <lastmod>2026-10-10T16:04:00+01:00</lastmod>
   </url><url>
-    <loc>https://crowsutr.github.io/news/</loc>
+    <loc>/news/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url><url>
-    <loc>https://crowsutr.github.io/news/post1/</loc>
+    <loc>/news/post1/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url><url>
-    <loc>https://crowsutr.github.io/news/post2/</loc>
+    <loc>/news/post2/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url><url>
-    <loc>https://crowsutr.github.io/</loc>
+    <loc>/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://crowsutr.github.io/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>https://crowsutr.github.io/tags/</loc>
+    <loc>/tags/</loc>
   </url>
 </urlset>
