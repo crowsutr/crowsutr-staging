@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Home2 on My New Hugo Project</title>
-		<link>https://example.org/</link>
+		<link>https://crowsutr.github.io/</link>
 		<description>Recent content in Home2 on My New Hugo Project</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,26 +12,26 @@
 		
 			<lastBuildDate>Sat, 10 Oct 2026 16:04:00 +0100</lastBuildDate>
 		
-			<atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://crowsutr.github.io/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Signup</title>
-				<link>https://example.org/signup/</link>
+				<link>https://crowsutr.github.io/signup/</link>
 				<pubDate>Sat, 10 Oct 2026 16:04:00 +0100</pubDate>
-				<guid>https://example.org/signup/</guid>
+				<guid>https://crowsutr.github.io/signup/</guid>
 				<description>&lt;p&gt;Some text&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>This is a test post</title>
-				<link>https://example.org/news/post1/</link>
+				<link>https://crowsutr.github.io/news/post1/</link>
 				<pubDate>Sun, 01 Jan 2023 08:30:00 -0700</pubDate>
-				<guid>https://example.org/news/post1/</guid>
+				<guid>https://crowsutr.github.io/news/post1/</guid>
 				<description>&lt;p&gt;This is a test post.&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt vehicula quam, nec fermentum risus congue eget. Mauris luctus velit lectus, id posuere diam ultricies sit amet. Maecenas ac scelerisque ex, sit amet tincidunt diam. Suspendisse rhoncus accumsan hendrerit. Sed felis sem, tristique nec orci id, luctus hendrerit arcu. Aenean vehicula, turpis a ultrices consequat, est nisl facilisis arcu, eu blandit turpis magna quis nibh. Nullam venenatis, nisi ut hendrerit luctus, massa ante interdum odio, ac efficitur arcu arcu eu ipsum.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>This is a test post</title>
-				<link>https://example.org/news/post2/</link>
+				<link>https://crowsutr.github.io/news/post2/</link>
 				<pubDate>Sun, 01 Jan 2023 08:30:00 -0700</pubDate>
-				<guid>https://example.org/news/post2/</guid>
+				<guid>https://crowsutr.github.io/news/post2/</guid>
 				<description>&lt;p&gt;This is a second test post.&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt vehicula quam, nec fermentum risus congue eget. Mauris luctus velit lectus, id posuere diam ultricies sit amet. Maecenas ac scelerisque ex, sit amet tincidunt diam. Suspendisse rhoncus accumsan hendrerit. Sed felis sem, tristique nec orci id, luctus hendrerit arcu. Aenean vehicula, turpis a ultrices consequat, est nisl facilisis arcu, eu blandit turpis magna quis nibh. Nullam venenatis, nisi ut hendrerit luctus, massa ante interdum odio, ac efficitur arcu arcu eu ipsum.&lt;/p&gt;</description>
 			</item>
 	</channel>
