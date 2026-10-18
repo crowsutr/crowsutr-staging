@@ -62,6 +62,10 @@ h5 {
   font-weight: bolder;
   text-shadow: 2px 2px white;
 }
+.head-cont img {
+  position: relative;
+  left: 100px;
+}
 .head-bg1 {
   content: "";
   background-color: #FBEE10FF;
@@ -147,13 +151,22 @@ img[src$="#floatright"] {
   margin: 0;
   padding: 0;
 }
-.menu li:hover {
-  font-size: 25pt;
+a {
+  color: rgb(150, 68, 110);
+  text-decoration: underline;
+}
+a:hover {
+  color: #D60876FF;
 }
 @media (max-width: 900px) {
   #header-wrapper {
     margin-bottom: 70px;
     height: 100px;
+  }
+  .head-cont img {
+    position: relative;
+    left: 25px;
+    width: 91cqw;
   }
   .head-cont {
     height: 100px;

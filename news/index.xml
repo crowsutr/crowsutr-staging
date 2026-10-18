@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>News &amp; Updates on My New Hugo Project</title>
-		<link>/news/</link>
+		<link>https://example.org/news/</link>
 		<description>Recent content in News &amp; Updates on My New Hugo Project</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,19 +12,19 @@
 		
 			<lastBuildDate>Sun, 01 Jan 2023 08:30:00 -0700</lastBuildDate>
 		
-			<atom:link href="/news/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://example.org/news/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>This is a test post</title>
-				<link>/news/post1/</link>
+				<link>https://example.org/news/post1/</link>
 				<pubDate>Sun, 01 Jan 2023 08:30:00 -0700</pubDate>
-				<guid>/news/post1/</guid>
+				<guid>https://example.org/news/post1/</guid>
 				<description>&lt;p&gt;This is a test post.&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt vehicula quam, nec fermentum risus congue eget. Mauris luctus velit lectus, id posuere diam ultricies sit amet. Maecenas ac scelerisque ex, sit amet tincidunt diam. Suspendisse rhoncus accumsan hendrerit. Sed felis sem, tristique nec orci id, luctus hendrerit arcu. Aenean vehicula, turpis a ultrices consequat, est nisl facilisis arcu, eu blandit turpis magna quis nibh. Nullam venenatis, nisi ut hendrerit luctus, massa ante interdum odio, ac efficitur arcu arcu eu ipsum.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>This is a test post</title>
-				<link>/news/post2/</link>
+				<link>https://example.org/news/post2/</link>
 				<pubDate>Sun, 01 Jan 2023 08:30:00 -0700</pubDate>
-				<guid>/news/post2/</guid>
+				<guid>https://example.org/news/post2/</guid>
 				<description>&lt;p&gt;This is a second test post.&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt vehicula quam, nec fermentum risus congue eget. Mauris luctus velit lectus, id posuere diam ultricies sit amet. Maecenas ac scelerisque ex, sit amet tincidunt diam. Suspendisse rhoncus accumsan hendrerit. Sed felis sem, tristique nec orci id, luctus hendrerit arcu. Aenean vehicula, turpis a ultrices consequat, est nisl facilisis arcu, eu blandit turpis magna quis nibh. Nullam venenatis, nisi ut hendrerit luctus, massa ante interdum odio, ac efficitur arcu arcu eu ipsum.&lt;/p&gt;</description>
 			</item>
 	</channel>
