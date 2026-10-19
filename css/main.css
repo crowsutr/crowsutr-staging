@@ -17,6 +17,10 @@
   padding-right: 0 !important;
   padding-left: 0 !important;
 }
+html,
+body {
+  margin: 0;
+}
 body {
   font-family:
     Heebo,
@@ -160,6 +164,16 @@ a {
 }
 a:hover {
   color: #D60876FF;
+}
+footer {
+  margin-top: 50px;
+}
+footer div {
+  color: black;
+  margin: 0;
+  max-width: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px 20px 0px 0px;
 }
 @media (max-width: 1000px) {
   #header-wrapper {
