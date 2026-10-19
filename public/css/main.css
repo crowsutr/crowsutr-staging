@@ -1,0 +1,239 @@
+/* <stdin> */
+.row,
+[class*=row-cols-] {
+  --bs-gutter-x: 0 !important;
+  --bs-gutter-y: 0 !important;
+}
+.col,
+[class*=col-] {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+[class*=g-],
+[class*=gx-],
+[class*=gy-] {
+  --bs-gutter-x: 0 !important;
+  --bs-gutter-y: 0 !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+body {
+  font-family:
+    Heebo,
+    Arial,
+    sans-serif;
+  overflow-x: hidden;
+}
+#header-wrapper {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  top: 20px;
+  height: 300px;
+  width: 100%;
+  margin-bottom: 150px;
+  font-family:
+    "Bebas Neue",
+    "Arial Narrow",
+    sans-serif;
+  container-type: size;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family:
+    "Bebas Neue",
+    "Arial Narrow",
+    sans-serif;
+}
+.head-cont {
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  z-index: 1000;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 13cqw;
+  font-weight: bolder;
+  text-shadow: 2px 2px white;
+}
+.head-cont img {
+  position: relative;
+  left: 100px;
+  width: 100cqw;
+}
+.head-bg1 {
+  content: "";
+  background-color: #FBEE10FF;
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  top: 3px;
+  transform: rotate(6deg);
+  border-radius: 30px;
+  z-index: -1;
+  box-shadow: 5px 10px 3px #333333aa;
+}
+.head-bg2 {
+  background-color: #D60876FF;
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  transform: rotate(-3deg);
+  border-radius: 30px;
+  z-index: -1;
+  box-shadow: 5px 10px 3px #333333aa;
+}
+.content img {
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+img[src$="#floatleft"] {
+  float: left;
+  max-width: 40%;
+  margin-right: 10px;
+}
+img[src$="#floatright"] {
+  float: right;
+  max-width: 40%;
+  margin-left: 10px;
+}
+.content {
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 3px;
+  margin: 25px;
+  margin-bottom: 50px;
+  position: relative;
+  background-color: white;
+  box-shadow: 5px 10px 3px #333333aa;
+  display: flow-root;
+  --flare-angle: 3deg;
+}
+.content-flare {
+  position: absolute;
+  inset: 0;
+  background-color: #D60876FF;
+  border-radius: 30px;
+  z-index: -1;
+  transform: rotate(var(--flare-angle));
+  box-shadow: 5px 10px 3px #333333aa;
+}
+.content:nth-child(even) .content-flare {
+  background-color: #FBEE10FF;
+  transform: rotate(calc(var(--flare-angle) * -1));
+}
+.content-text {
+  padding: 20px;
+  overflow: hidden;
+}
+.menu {
+  position: relative;
+  background-color: white;
+  font-size: 20pt;
+  font-family:
+    "Bebas Neue",
+    "Arial Narrow",
+    sans-serif;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+.menu ul {
+  padding-left: 0;
+}
+.menu li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: rgb(150, 68, 110);
+  text-decoration: underline;
+}
+a:hover {
+  color: #D60876FF;
+}
+@media (max-width: 1000px) {
+  #header-wrapper {
+    margin-bottom: 70px;
+    height: 200px;
+  }
+  .head-cont {
+    height: 200px;
+  }
+  .head-bg1 {
+    height: 200px;
+  }
+  .head-bg2 {
+    height: 200px;
+  }
+  .head-cont img {
+    position: relative;
+    left: 25px;
+    width: 91cqw;
+  }
+  .menu {
+    width: 100%;
+    margin-left: 20px;
+  }
+  .menu li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 768px) {
+  #header-wrapper {
+    margin-bottom: 70px;
+    height: 100px;
+  }
+  .head-cont img {
+    position: relative;
+    left: 25px;
+    width: 91cqw;
+  }
+  .head-cont {
+    height: 100px;
+  }
+  .head-bg1 {
+    height: 100px;
+  }
+  .head-bg2 {
+    height: 100px;
+  }
+  .menu {
+    width: 100%;
+    margin-left: 20px;
+  }
+  .menu li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .content {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .content img {
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  img[src$="#floatleft"] {
+    float: unset;
+    max-width: unset;
+    margin-right: unset;
+  }
+  img[src$="#floatright"] {
+    float: right;
+    max-width: unset;
+    margin-left: unset;
+  }
+}
+/*# sourceMappingURL=main.css.map */
