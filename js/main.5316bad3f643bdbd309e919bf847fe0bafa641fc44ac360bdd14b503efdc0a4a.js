@@ -1,0 +1,1 @@
+(()=>{document.addEventListener("DOMContentLoaded",()=>{let a=new ResizeObserver(e=>{for(let o of e){let n=o.target.offsetHeight;if(!n)continue;let t=Math.atan(40/n)*180/Math.PI;t=Math.min(3,Math.max(.5,t)),o.target.style.setProperty("--flare-angle",`${t.toFixed(2)}deg`)}});document.querySelectorAll(".content").forEach(e=>a.observe(e))});})();
